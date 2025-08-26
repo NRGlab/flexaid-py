@@ -52,6 +52,12 @@ https://github.com/NRGlab/FlexAID/tree/flexaid-cpp
 | `result_save_path`   | Absolute path including the name for saving result files (without extension). Results will be saved as `[result_save_path]_0.pdb`, `[result_save_path]_1.pdb`, etc. |
 | `live_output`        | Boolean flag (default: `False`). When set to `True`, FlexAID's output will be displayed in real-time to track progress.                                             |
 
+## Returns
+
+| Type            | Description                                               |
+|-----------------|-----------------------------------------------------------|
+| `FlexAIDResult` | An object containing `returncode`, `stdout` and `stderr`. |
+
 ---
 
 ## Full run on a target and ligand using `GetCleft`, `ProcessLigand` and `FlexAiD`:
