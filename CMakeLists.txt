@@ -9,7 +9,7 @@ include(GNUInstallDirs)
 FetchContent_Declare(
   flexaid_repo
   GIT_REPOSITORY https://github.com/NRGlab/FlexAID.git
-  GIT_TAG        flexaid-cpp
+  GIT_TAG        5e06c8bba23179209bef5c40a2e100158244320f
 )
 
 FetchContent_MakeAvailable(flexaid_repo)
